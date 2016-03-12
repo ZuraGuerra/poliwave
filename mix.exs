@@ -29,4 +29,18 @@ defmodule Poliwave.Mixfile do
   defp deps do
     []
   end
+
+  defp description do
+    """
+    Polyline encoding for Google Maps.
+    """
+  end
+
+  defp package do
+    [# These are the default files included in the package
+     files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     maintainers: ["Zura Guerra"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/ZuraGuerra/poliwave"}]
+  end
 end
